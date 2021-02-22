@@ -1,3 +1,7 @@
 micronaut:
   application:
     name: demo
+
+rabbitmq:
+  host: localhost
+  port: ${RABBIT_PORT:5672}
